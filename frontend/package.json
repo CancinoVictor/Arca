@@ -1,0 +1,36 @@
+{
+  "name": "arca-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.59.0",
+    "@tanstack/react-virtual": "^3.10.8",
+    "@uppy/core": "^4.0.0",
+    "@uppy/dashboard": "^4.0.0",
+    "@uppy/drag-drop": "^4.0.0",
+    "@uppy/file-input": "^4.0.0",
+    "@uppy/progress-bar": "^4.0.0",
+    "@uppy/react": "^4.0.0",
+    "@uppy/status-bar": "^4.0.0",
+    "@uppy/tus": "^4.0.0",
+    "dexie": "^4.0.10",
+    "dexie-react-hooks": "^1.1.7",
+    "hash-wasm": "^4.11.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.8"
+  }
+}
